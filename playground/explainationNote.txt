@@ -1,0 +1,11 @@
+two		    B-PIZZAORDER        B-NUMBER
+large		I-PIZZAORDER		B-SIZE
+pizzas		I-PIZZAORDER		O
+with		I-PIZZAORDER		O
+ham		    I-PIZZAORDER		B-TOPPING
+and		    O                   O
+one		    B-DRINKORDER        B-NUMBER
+diet		I-DRINKORDER		B-DRINKTYPE
+coke		I-DRINKORDER		I-DRINKTYPE
+
+(ORDER (PIZZAORDER (NUMBER two) (SIZE large) pizzas with (TOPPING ham) ) and (DRINKORDER (NUMBER one) (DRINKTYPE diet coke)))
