@@ -1,5 +1,6 @@
-# 🍕 NLP-Based Pizza Order Entity Extraction
-
+# 🍕 NLP-Based Pizza Order semantic parsing
+## Dataset
+(https://github.com/amazon-science/pizza-semantic-parsing-dataset/tree/main)
 ## 🧠 Overview
 
 This project focuses on building an **NLP system** capable of extracting and parsing structured entities from natural language food orders, specifically pizza and drink orders. The aim is to convert user instructions into machine-readable formats for more accurate and efficient order processing in online food delivery systems.
